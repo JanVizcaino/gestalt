@@ -28,7 +28,7 @@ body {
     Ubuntu, Cantarell, sans-serif;
 }
 
-.navbar {
+nav {
   background-color: var(--bg-color);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
@@ -79,34 +79,38 @@ body {
 
 section {
   padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
 }
 
-.section-title {
+.law-title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: var(--primary-color);
 }
 
-.section-description {
+.law-description {
   font-size: 1.2rem;
   margin-bottom: 3rem;
   line-height: 1.8;
 }
 
-.card-gestalt {
+.gestalt-in-web {
   background-color: var(--card-bg);
   border: 2px solid var(--border-color);
   border-radius: 16px;
   padding: 3rem;
   height: 100%;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
-.card-gestalt:hover {
+.gestalt-in-web:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+  background-color: var(--border-color);
 }
 
 .visual-example {
@@ -120,8 +124,25 @@ section {
   border: 2px solid var(--border-color);
 }
 
+.visual-example {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 2px solid var(--border-color);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.visual-example:hover {
+  box-shadow: 0 0 0 6px rgba(100, 150, 255, 0.4); 
+  transform: scale(1.02); 
+}
+
+
 ol {
-    counter-reset: my-counter; /* opcional para estilo personalizado */
     padding-left: 1.5rem;
 }
 
@@ -130,20 +151,18 @@ ol li {
     font-weight: 500;
 }
 
-/* Ejemplo con números en color diferente */
 ol li::marker {
     color: var(--primary-color);
     font-weight: bold;
 }
 
 
-/* Parallax sections */
 .parallax {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,17 +177,24 @@ ol li::marker {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.parallax-content {
+.parallax-inner {
   position: relative;
   z-index: 1;
   text-align: center;
   padding: 2rem;
 }
 
-/* Dark mode toggle */
+.parallax-inner h1{
+  font-size: 3rem; font-weight: 800;
+}
+
+.parallax-inner p{
+  font-size: 1.5rem; margin-top: 1rem;
+}
+
 .dark-mode-toggle {
   position: relative;
   width: 60px;
