@@ -1,8 +1,6 @@
-// Dark mode toggle
 const toggle = document.getElementById("darkModeToggle");
 const html = document.documentElement;
 
-// Check for saved theme preference
 const currentTheme = localStorage.getItem("theme") || "light";
 html.setAttribute("data-theme", currentTheme);
 
@@ -12,7 +10,6 @@ toggle.addEventListener("click", () => {
   localStorage.setItem("theme", theme);
 });
 
-// Smooth scroll offset for fixed navbar
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
