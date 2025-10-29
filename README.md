@@ -12,8 +12,8 @@ Página web educativa y ligera que explica las ocho leyes de la Gestalt aplicada
 ---
 
 ## Enlaces
-https://gestaltwebdev.netlify.app/
-https://gestalt-sand.vercel.app/
+- https://gestaltwebdev.netlify.app/
+- https://gestalt-sand.vercel.app/
 
 ---
 
