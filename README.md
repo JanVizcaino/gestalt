@@ -11,6 +11,12 @@ Página web educativa y ligera que explica las ocho leyes de la Gestalt aplicada
 
 ---
 
+## Enlaces
+https://gestaltwebdev.netlify.app/
+https://gestalt-sand.vercel.app/
+
+---
+
 ## Objetivo
 Que cualquier usuario, aunque no tenga conocimientos de diseño, pueda entender y reconocer cómo se aplican las leyes de la Gestalt en interfaces digitales modernas mediante explicaciones breves y ejemplos visuales sencillos (sin depender de fotografías).
 
