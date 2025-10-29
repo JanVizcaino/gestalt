@@ -141,17 +141,3 @@ Propuesta sencilla:
 
 ## Conclusiones personales
 Trabajar con Bootstrap 5 para esta práctica ha sido un reto enriquecedor frente a un workflow basado en Tailwind. La práctica obliga a traducir ideas visuales a utilidades predefinidas y a ser preciso con la estructura semántica y la accesibilidad. El resultado es una página didáctica, ligera y fácil de mantener.
-
----
-
-## Créditos y referencias
-- Material del módulo RA2 — Disseny d'Interficies Web.
-- Bootstrap 5 documentación (para componentes y utilidades).
-- Autor: Jan Vizcaíno Boixadós.
-
----
-
-## Licencia
-Proyecto para uso académico. Si quieres, puedo añadir una licencia (MIT, CC-BY, etc.) en el archivo.
-
----
